@@ -1,4 +1,4 @@
-const asyncAPI = {
+const api = {
   timeout: 3000,
   getMessage: (timeout = asyncAPI.timeout) => {
     return new Promise((res) => {
@@ -8,4 +8,4 @@ const asyncAPI = {
     });
   },
 };
-export default asyncAPI;
+export default api;
