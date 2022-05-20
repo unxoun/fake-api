@@ -1,6 +1,6 @@
 const api = {
   timeout: 3000,
-  getMessage: (timeout = asyncAPI.timeout) => {
+  getMessage: (timeout = api.timeout) => {
     return new Promise((res) => {
       setTimeout(() => {
         res({ status: 200, data: { id: 1, message: "Hello World." } });
